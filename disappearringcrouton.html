@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Disappearring Crouton</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: white;
+        }
+        img {
+            animation: poof 5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes poof {
+            0% { opacity: 1.0; }
+            10% { opacity: .9; }
+            20% { opacity: .8; }
+            30% { opacity: .7; }
+            40% { opacity: .6; }
+            50% { opacity: .5; }
+            60% { opacity: .4; }
+            70% { opacity: .3; }
+            80% { opacity: .2; }
+            90% { opacity: 0; }
+            100% { opacity: 0;}
+        }
+    </style>
+</head>
+<body>
+    <img src="crouton.png">
+</body>
+</html>
